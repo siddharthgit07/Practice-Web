@@ -1,0 +1,11 @@
+@font-face {
+    font-family: sid;
+    src: url(./NType82-Regular.otf);
+}
+.ok{
+    color: rgb(234, 34, 34);
+    font-family:sid;
+    font-weight: 400;
+    font-style: italic;
+    font-size: larger;
+}   

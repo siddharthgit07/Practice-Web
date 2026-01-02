@@ -1,0 +1,60 @@
+@font-face {
+    font-family: f1;
+    src: url(./MomoSignature-Regular.ttf);
+}
+@font-face {
+    font-family: f2;
+    src: url(./NType82-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+    font-family: f1;
+
+    background-image: url(https://images.unsplash.com/photo-1761839257946-4616bcfafec7?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+}
+
+h1{
+    font-family: f1;
+    text-align: center;
+    padding: 20px ;
+    align-items: center;
+    font-size: 100px;
+   text-shadow: 0 0 10px rgb(87, 199, 87);
+
+}
+
+button{
+    font-family: f2;
+    font-size: 25px;
+    padding: 6px 7px;
+    background-color: rgb(145, 157, 145);
+    border-radius: 10px;
+    font-weight: 40;
+    border: 2px solid rgb(213, 240, 206);
+    
+}
+button:hover{
+    background-color: rgb(63, 138, 63);
+    transform: scale(1.06);
+}
+
